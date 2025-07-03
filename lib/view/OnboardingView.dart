@@ -54,10 +54,19 @@ class OnboardingView extends StatelessWidget {
                   controller.currentPage.value == 2 ? "Get Started" : "Next",
                 ),
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.white,
-                  foregroundColor: Color(0xFF0077B6),
-                  padding: EdgeInsets.symmetric(horizontal: 40, vertical: 14),
-                ),
+            backgroundColor: Color(0xFFFF8C42), // Use accent color for buttons
+            foregroundColor: Colors.white, // Button text color
+            padding: const EdgeInsets.symmetric(horizontal: 40, vertical: 14),
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(
+                10,
+              ), // Slightly rounded corners
+            ),
+            textStyle: const TextStyle(
+              fontSize: 16,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
               ),
             ),
             SizedBox(height: 40),

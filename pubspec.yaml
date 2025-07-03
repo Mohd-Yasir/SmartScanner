@@ -31,6 +31,8 @@ flutter:
     - assets/Scan2.png
     - assets/summarize2.png
     - assets/extract2.png
+    - assets/Cards/card1.png
+    - assets/Cards/card2.png
 
   # fonts:
   #   - family: Schyler
